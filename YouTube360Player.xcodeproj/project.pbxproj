@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE6228BF2976460400983435 /* MegaCoaster360.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EE6228BC2976460400983435 /* MegaCoaster360.mp4 */; };
+		EE6228C02976460400983435 /* JurassicPark360.mov in Resources */ = {isa = PBXBuildFile; fileRef = EE6228BD2976460400983435 /* JurassicPark360.mov */; };
+		EE88B35C297DE0F100250C58 /* TheEyeOfTheTiger.mov in Resources */ = {isa = PBXBuildFile; fileRef = EE88B35A297DE02C00250C58 /* TheEyeOfTheTiger.mov */; };
+		EEF6EC112963894200558624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6EC102963894200558624 /* AppDelegate.swift */; };
+		EEF6EC152963894300558624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF6EC142963894300558624 /* Assets.xcassets */; };
+		EEF6EC182963894300558624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF6EC162963894300558624 /* Main.storyboard */; };
+		EEF6EC2129638A6100558624 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = EEF6EC2029638A6100558624 /* Shaders.metal */; };
+		EEF6EC2729638A7200558624 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6EC2329638A7200558624 /* MetalView.swift */; };
+		EEF6EC2829638A7200558624 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6EC2429638A7200558624 /* MetalRenderer.swift */; };
+		EEF6EC2929638A7200558624 /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6EC2529638A7200558624 /* MetalViewController.swift */; };
+		EEF6EC2A29638AE700558624 /* BoxMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED8678C29595B69000E40B8 /* BoxMesh.swift */; };
+		EEF6EC2B29638AF100558624 /* AAPLMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8E518F295BA03800ACC392 /* AAPLMathUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE6228BC2976460400983435 /* MegaCoaster360.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MegaCoaster360.mp4; sourceTree = "<group>"; };
+		EE6228BD2976460400983435 /* JurassicPark360.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = JurassicPark360.mov; sourceTree = "<group>"; };
+		EE88B35A297DE02C00250C58 /* TheEyeOfTheTiger.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TheEyeOfTheTiger.mov; sourceTree = "<group>"; };
+		EE8E518E295BA03800ACC392 /* AAPLMathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLMathUtilities.h; sourceTree = "<group>"; };
+		EE8E518F295BA03800ACC392 /* AAPLMathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLMathUtilities.m; sourceTree = "<group>"; };
+		EE93D7B6294A76F0006F4472 /* Readme.md */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; };
+		EED8678C29595B69000E40B8 /* BoxMesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxMesh.swift; sourceTree = "<group>"; };
+		EEF6EC0E2963894100558624 /* YouTube360Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTube360Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF6EC102963894200558624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEF6EC142963894300558624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEF6EC172963894300558624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEF6EC192963894300558624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF6EC2029638A6100558624 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		EEF6EC2329638A7200558624 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		EEF6EC2429638A7200558624 /* MetalRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		EEF6EC2529638A7200558624 /* MetalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF6EC0B2963894100558624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C611F81FE15FB800B6DB13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EED8678C29595B69000E40B8 /* BoxMesh.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2A5F1F71F4A9143005CD714 = {
+			isa = PBXGroup;
+			children = (
+				EE93D7B6294A76F0006F4472 /* Readme.md */,
+				EE8E518D295BA01600ACC392 /* Utilities */,
+				40C611F81FE15FB800B6DB13 /* Model */,
+				EE93D7B7294A776A006F4472 /* Resources */,
+				EEF6EC0F2963894200558624 /* YouTube360Player */,
+				D2A5F2011F4A9144005CD714 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		D2A5F2011F4A9144005CD714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF6EC0E2963894100558624 /* YouTube360Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8E518D295BA01600ACC392 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E518E295BA03800ACC392 /* AAPLMathUtilities.h */,
+				EE8E518F295BA03800ACC392 /* AAPLMathUtilities.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EE93D7B7294A776A006F4472 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE88B35A297DE02C00250C58 /* TheEyeOfTheTiger.mov */,
+				EE6228BD2976460400983435 /* JurassicPark360.mov */,
+				EE6228BC2976460400983435 /* MegaCoaster360.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EEF6EC0F2963894200558624 /* YouTube360Player */ = {
+			isa = PBXGroup;
+			children = (
+				EEF6EC1F2963899C00558624 /* Main */,
+				EEF6EC1E2963898700558624 /* Shaders */,
+				EEF6EC142963894300558624 /* Assets.xcassets */,
+				EEF6EC162963894300558624 /* Main.storyboard */,
+				EEF6EC192963894300558624 /* Info.plist */,
+			);
+			path = YouTube360Player;
+			sourceTree = "<group>";
+		};
+		EEF6EC1E2963898700558624 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EEF6EC2029638A6100558624 /* Shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		EEF6EC1F2963899C00558624 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EEF6EC102963894200558624 /* AppDelegate.swift */,
+				EEF6EC2429638A7200558624 /* MetalRenderer.swift */,
+				EEF6EC2329638A7200558624 /* MetalView.swift */,
+				EEF6EC2529638A7200558624 /* MetalViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF6EC0D2963894100558624 /* YouTube360Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF6EC1D2963894300558624 /* Build configuration list for PBXNativeTarget "YouTube360Player" */;
+			buildPhases = (
+				EEF6EC0A2963894100558624 /* Sources */,
+				EEF6EC0B2963894100558624 /* Frameworks */,
+				EEF6EC0C2963894100558624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTube360Player;
+			productName = YouTube360;
+			productReference = EEF6EC0E2963894100558624 /* YouTube360Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A5F1F81F4A9143005CD714 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					EEF6EC0D2963894100558624 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "YouTube360Player" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A5F1F71F4A9143005CD714;
+			productRefGroup = D2A5F2011F4A9144005CD714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF6EC0D2963894100558624 /* YouTube360Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF6EC0C2963894100558624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF6EC152963894300558624 /* Assets.xcassets in Resources */,
+				EE88B35C297DE0F100250C58 /* TheEyeOfTheTiger.mov in Resources */,
+				EE6228BF2976460400983435 /* MegaCoaster360.mp4 in Resources */,
+				EE6228C02976460400983435 /* JurassicPark360.mov in Resources */,
+				EEF6EC182963894300558624 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF6EC0A2963894100558624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF6EC112963894200558624 /* AppDelegate.swift in Sources */,
+				EEF6EC2A29638AE700558624 /* BoxMesh.swift in Sources */,
+				EEF6EC2729638A7200558624 /* MetalView.swift in Sources */,
+				EEF6EC2829638A7200558624 /* MetalRenderer.swift in Sources */,
+				EEF6EC2929638A7200558624 /* MetalViewController.swift in Sources */,
+				EEF6EC2B29638AF100558624 /* AAPLMathUtilities.m in Sources */,
+				EEF6EC2129638A6100558624 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEF6EC162963894300558624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF6EC172963894300558624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A5F2101F4A9144005CD714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.13;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A5F2111F4A9144005CD714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.13;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEF6EC1B2963894300558624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YouTube360Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "Incremental-Innovation.YouTube360Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "YouTube360Player/Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEF6EC1C2963894300558624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YouTube360Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "Incremental-Innovation.YouTube360Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "YouTube360Player/Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A5F1FB1F4A9143005CD714 /* Build configuration list for PBXProject "YouTube360Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A5F2101F4A9144005CD714 /* Debug */,
+				D2A5F2111F4A9144005CD714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF6EC1D2963894300558624 /* Build configuration list for PBXNativeTarget "YouTube360Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF6EC1B2963894300558624 /* Debug */,
+				EEF6EC1C2963894300558624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A5F1F81F4A9143005CD714 /* Project object */;
+}

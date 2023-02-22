@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Go360-macOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Go360.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>YouTube360Player.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D2A5F1FF1F4A9144005CD714</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE6D5CC229540B8000DBEF3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE8E516C295B9AE100ACC392</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE9A255528F2F6B60008B597</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEA9D7B2293EF58700C203BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEF6EC0D2963894100558624</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
