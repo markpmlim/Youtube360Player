@@ -8,6 +8,9 @@ This is a basic video player which can be used to render youtube formatted video
 
 ![](Documentation/after.png)
 
+<br />
+<br />
+
 The source code of this application is derived on Apple's `Creating A Movie PlayerApp With Basic Playback Controls` and `360 Video Player With Metal`.  The AVFoundation objects that manage a player's visual output don't present any playback controls. On macOS, the classes `AVPlayerLayer` and `AVPlayerView` can be used to manage the visual output of an instance of AVPlayer. In fact, an instance of `AVPlayerView` can display visual content from an instance of AVPlayer along with some basic media controls supplied by the system.
 
 However, since each frame of a youtube video needs to be processed before it can be output to the screen, performing that work can be speeded up using either OpenGL or Metal Shaders. Processing using Metal shaders is much faster compared to OpenGL shaders. Besides, on the macOS, the equivalent of  `CVMetalTextureCacheCreateTextureFromImage` is missing. The OpenGL equivalent, `CVOpenGLTextureCacheCreateTextureFromImage` does not support creating luminance and chrominance textures. An alternative is to use the function `CGLTexImageIOSurface2D` if macOS (10.10 or earlier) does not support Metal shaders. Furthermore, creating a CVPixelBuffer with a pixel format type of `kCVPixelFormatType_32BGRA`  is slow compared to `kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange`.
@@ -41,7 +44,6 @@ Note: if the background of a video frame is black, most of the media controls wi
 
 <br />
 <br />
-<br />
 
 **Snapshots:**
 
@@ -71,7 +73,7 @@ An Apple supported video format converted from a youtube webm format.
 
 **Runtime Requirements:**
 
-macOS 10.11
+macOS 10.12
 <br />
 <br />
 
