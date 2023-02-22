@@ -97,7 +97,7 @@ CreatingAMoviePlayerAppWithBasicPlaybackControls
 
 1) https://developer.apple.com/library/archive/samplecode/AVGreenScreenPlayer/Listings/AVGreenScreenPlayer_GSPlayerView_m.html
 
-2) https://github.com/McZonk/MetalCameraSample
+2) https://medium.com/@hanton.yang/how-to-create-a-360-video-player-with-opengl-es-3-0-and-glkit-360-3f29a9cfac88)
 
-3) Technical Q&A: QA1501 and QA 1781
+30 https://github.com/markpmlim/SimpleVideoPlayer
 
