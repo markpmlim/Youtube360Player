@@ -93,11 +93,11 @@ https://www.youtube.com/watch?v=3OSijZB2gE8
 
 **References:**
 
-3) https://github.com/McZonk/MetalCameraSample
-
 CreatingAMoviePlayerAppWithBasicPlaybackControls
 
-4) https://developer.apple.com/library/archive/samplecode/AVGreenScreenPlayer/Listings/AVGreenScreenPlayer_GSPlayerView_m.html
+1) https://developer.apple.com/library/archive/samplecode/AVGreenScreenPlayer/Listings/AVGreenScreenPlayer_GSPlayerView_m.html
 
-5) Technical Q&A: QA1501 and QA 1781
+2) https://github.com/McZonk/MetalCameraSample
+
+3) Technical Q&A: QA1501 and QA 1781
 
