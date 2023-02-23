@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE6228BF2976460400983435 /* MegaCoaster360.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EE6228BC2976460400983435 /* MegaCoaster360.mp4 */; };
-		EE6228C02976460400983435 /* JurassicPark360.mov in Resources */ = {isa = PBXBuildFile; fileRef = EE6228BD2976460400983435 /* JurassicPark360.mov */; };
-		EE88B35C297DE0F100250C58 /* TheEyeOfTheTiger.mov in Resources */ = {isa = PBXBuildFile; fileRef = EE88B35A297DE02C00250C58 /* TheEyeOfTheTiger.mov */; };
 		EEF6EC112963894200558624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF6EC102963894200558624 /* AppDelegate.swift */; };
 		EEF6EC152963894300558624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF6EC142963894300558624 /* Assets.xcassets */; };
 		EEF6EC182963894300558624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF6EC162963894300558624 /* Main.storyboard */; };
@@ -22,9 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE6228BC2976460400983435 /* MegaCoaster360.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MegaCoaster360.mp4; sourceTree = "<group>"; };
-		EE6228BD2976460400983435 /* JurassicPark360.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = JurassicPark360.mov; sourceTree = "<group>"; };
-		EE88B35A297DE02C00250C58 /* TheEyeOfTheTiger.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = TheEyeOfTheTiger.mov; sourceTree = "<group>"; };
 		EE8E518E295BA03800ACC392 /* AAPLMathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLMathUtilities.h; sourceTree = "<group>"; };
 		EE8E518F295BA03800ACC392 /* AAPLMathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLMathUtilities.m; sourceTree = "<group>"; };
 		EE93D7B6294A76F0006F4472 /* Readme.md */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; };
@@ -65,7 +59,6 @@
 				EE93D7B6294A76F0006F4472 /* Readme.md */,
 				EE8E518D295BA01600ACC392 /* Utilities */,
 				40C611F81FE15FB800B6DB13 /* Model */,
-				EE93D7B7294A776A006F4472 /* Resources */,
 				EEF6EC0F2963894200558624 /* YouTube360Player */,
 				D2A5F2011F4A9144005CD714 /* Products */,
 			);
@@ -88,16 +81,6 @@
 				EE8E518F295BA03800ACC392 /* AAPLMathUtilities.m */,
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		EE93D7B7294A776A006F4472 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				EE88B35A297DE02C00250C58 /* TheEyeOfTheTiger.mov */,
-				EE6228BD2976460400983435 /* JurassicPark360.mov */,
-				EE6228BC2976460400983435 /* MegaCoaster360.mp4 */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		EEF6EC0F2963894200558624 /* YouTube360Player */ = {
@@ -191,9 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF6EC152963894300558624 /* Assets.xcassets in Resources */,
-				EE88B35C297DE0F100250C58 /* TheEyeOfTheTiger.mov in Resources */,
-				EE6228BF2976460400983435 /* MegaCoaster360.mp4 in Resources */,
-				EE6228C02976460400983435 /* JurassicPark360.mov in Resources */,
 				EEF6EC182963894300558624 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
