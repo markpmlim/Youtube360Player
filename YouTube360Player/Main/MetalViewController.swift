@@ -18,7 +18,7 @@ class MetalViewController: NSViewController, NSWindowDelegate
     }
 
     // Edit the name of the video file
-    let nameOfVideo = "TheEyeOfTheTiger.mov"
+    let nameOfVideo = "JurassicPark360.mov"
     var displayLink: CVDisplayLink?
     var displaySource: DispatchSource!
     var lastHostTime: UInt64!
