@@ -102,8 +102,8 @@ class MetalViewController: NSViewController, NSWindowDelegate
     @objc func windowDidMiniaturize(_ notification: Notification)
     {
         if (notification.object as? NSWindow == self.metalView.window) {
-            CVDisplayLinkStop(displayLink!)
             avPlayer.pause()
+            CVDisplayLinkStop(displayLink!)
         }
     }
     
