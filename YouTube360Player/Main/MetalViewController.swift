@@ -407,10 +407,8 @@ class MetalViewController: NSViewController, NSWindowDelegate
         diffY *= -radiansPerPoint
         rotateX += diffY
         rotateY += diffX
-        DispatchQueue.main.async {
-            self.metalRenderer?.rotateX = self.rotateX
-            self.metalRenderer?.rotateY = self.rotateY
-        }
+        self.metalRenderer?.rotateX = self.rotateX
+        self.metalRenderer?.rotateY = self.rotateY
     }
 
     override func mouseUp(with event: NSEvent)
